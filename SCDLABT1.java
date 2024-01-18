@@ -1,4 +1,4 @@
-import java.util.Scanner; 
+import java.util.*;
 public class SCDLABT1 {
 	public static void main(String[] args) {
 		 Scanner input = new Scanner(System.in);  	 	
@@ -10,7 +10,6 @@ public class SCDLABT1 {
 		 catch (ArrayIndexOutOfBoundsException ex) {  	 	 
 		 System.out.println("Index Out of Bounds."); 
 		 } 
-
 	}
 	public static int[] getArray() {  	 	
 		int[] array = new int[100];  	 	
@@ -20,4 +19,3 @@ public class SCDLABT1 {
 	return array; 
 	}
 }
-
